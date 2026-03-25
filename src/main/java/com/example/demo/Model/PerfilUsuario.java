@@ -18,7 +18,6 @@ public class PerfilUsuario {
 
     @Column(nullable = false, length = 20)
     private String telefono;
-
     //optional - garantiza que todos los usuarios tengan un perfil
 
     @OneToOne(optional = false)
